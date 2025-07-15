@@ -18,8 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
+        'topic': 'Artificial Intelligence',
     }
     
     try:
@@ -34,7 +33,6 @@ def train():
     """
     inputs = {
         "topic": "AI LLMs",
-        'current_year': str(datetime.now().year)
     }
     try:
         ArticleResearcher().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
