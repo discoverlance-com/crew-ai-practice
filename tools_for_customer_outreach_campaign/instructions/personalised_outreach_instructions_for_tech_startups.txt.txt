@@ -1,0 +1,22 @@
+Objective:
+Appeal to fast-moving, tech-savvy startups by showing how your solution aligns with their need for growth, speed, and innovation.
+
+Instructions for the Agent:
+
+Keep the message energetic, sharp, and relevant.
+
+Focus on how your solution integrates into their stack or optimizes their processes.
+
+Show you're not wasting their time.
+
+Key Points to Address:
+
+Personalization:
+Reference what they’re building, a recent launch, or funding round.
+
+Efficiency:
+Emphasize rapid value delivery — MVP-level testing, plug-and-play setup, or automation benefits.
+
+Template Message:
+“Hey [Name], love what you're building at [Startup Name] — the [mention product or feature] is super promising. We help early-stage teams like yours close more leads and build strong user relationships with smart, automated outreach that still feels personal. It fits right into your existing stack and starts showing results fast — no need for long setups or extra headcount. Can I share a quick example or walk you through a test case?”
+
