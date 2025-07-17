@@ -1,0 +1,28 @@
+venue_task:
+  description: >
+    Find a venue in {event_city} that meets criteria for {event_topic}.
+  expected_output: >
+    All the details of a specifically chosen venue you found to accommodate the event.
+  agent: venue_cordinator_agent
+  output_file: outputs/venue_details.json
+  human_input: true
+
+logistics_task:
+  description: >
+    Coordinate catering and equipment for an event  
+    with {expected_participants} participants on {tentative_date}.
+  expected_output: >
+    Confirmation of all logistics arrangements including catering and equipment setup.
+  agent: logistics_manager_agent
+  async_execution: true
+  human_input: true
+
+marketing_task:
+  description: >
+    Promote the {event_topic} aiming to engage at least  
+    {expected_participants} potential attendees.
+  expected_output: >
+    Report on marketing activities and attendee engagement formatted as markdown.
+  agent: marketing_communications_agent
+  async_execution: false
+  output_file: outputs/marketing_report.md
