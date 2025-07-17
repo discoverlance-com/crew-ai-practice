@@ -1,0 +1,23 @@
+[project]
+name = "multi_agent_financial_analysis"
+version = "0.1.0"
+description = "multi_agent_financial_analysis using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.141.0,<1.0.0"
+]
+
+[project.scripts]
+multi_agent_financial_analysis = "multi_agent_financial_analysis.main:run"
+run_crew = "multi_agent_financial_analysis.main:run"
+train = "multi_agent_financial_analysis.main:train"
+replay = "multi_agent_financial_analysis.main:replay"
+test = "multi_agent_financial_analysis.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
