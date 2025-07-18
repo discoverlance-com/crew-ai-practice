@@ -49,6 +49,7 @@ class ToolsForCustomerOutreachCampaign():
     def lead_profiling_task(self) -> Task:
         return Task(
             config=self.tasks_config['lead_profiling_task'], # type: ignore[index]
+            output_file='outputs/profile.md',
             tools=[directory_read_tool, file_read_tool, search_tool]
         )
 
@@ -56,7 +57,7 @@ class ToolsForCustomerOutreachCampaign():
     def personalized_outreach_task(self) -> Task:
         return Task(
             config=self.tasks_config['personalized_outreach_task'], # type: ignore[index]
-            output_file='outputs/outreach .md',
+            output_file='outputs/outreach.md',
             tools=[sentiment_analysis_tool, search_tool]
         )
 
